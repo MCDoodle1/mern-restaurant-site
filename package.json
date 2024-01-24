@@ -1,0 +1,11 @@
+{
+  "name": "mern-restaurant-site",
+  "version": "1.0.0",
+  "description": "Restaurant application using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Clarijs",
+  "license": "ISC"
+}
