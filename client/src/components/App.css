@@ -1,0 +1,39 @@
+.signup-container {
+  background-image: url("../../public/images/img-signup-bkg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.signin-container {
+  background-image: url("../../public/images/img-signin-bkg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: min(300px);
+}
+
+.card-img-top-product {
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.homepage {
+  height: 100vh;
+}
+
+.banner-image {
+  background-image: url("../../public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  height: 60%;
+}

@@ -1,0 +1,20 @@
+export const setLocalStorage = (key, value) => {
+  localStorage.setItem(key, JSON.stringify(value));
+};
+
+export const getLocalStorage = (key) => {
+  const value = localStorage.getItem(key);
+  return JSON.parse(value);
+};
+
+export const deleteLocalStorage = (key) => {
+  localStorage.removeItem(key);
+};
+
+export const clearCartLocalStorage = (next) => {
+  deleteLocalStorage("cart");
+  deleteLocalStorage("shippingAddress");
+  deleteLocalStorage("paymentMethod");
+
+  next();
+};
