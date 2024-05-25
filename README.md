@@ -44,7 +44,7 @@ The recommended Redux version in 2024 is Redux Toolkit.
 ### Links
 
 - Solution URL: [GitHub Page](https://github.com/MCDoodle1/mern-restaurant-site)
-- Live Site URL: [MERN Restaurant Live Site](https://mcdoodle1.github.io/mern-restaurant-site/)
+- Live Site URL: [MERN Restaurant Live Site](mern-restaurant-site.onrender.com)
 
 
 ## My process
