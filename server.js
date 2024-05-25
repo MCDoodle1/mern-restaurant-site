@@ -22,7 +22,7 @@ app.use("/api/product", productRoutes);
 app.use("/api/filter", filterRoutes);
 app.use("/api/payment", paymentRoutes);
 app.use("/uploads", express.static("uploads"));
-app.use(express.static(path.join("client/build")));
+app.use(express.static(path.join("client", "build")));
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "build", "index.html"));
